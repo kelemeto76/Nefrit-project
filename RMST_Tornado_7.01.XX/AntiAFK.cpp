@@ -1,4 +1,4 @@
-#include "Stdafx.h"
+#include "Stdafx.h" // test command
 #include "Main.h"
 #include "AntiAFK.h"
 #include "ChatCommands.h"
