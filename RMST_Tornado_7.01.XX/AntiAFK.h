@@ -1,3 +1,9 @@
+// ================================================== //
+// # GameServer 1.00.90 WzAG.dll                    # //
+// # Credit: Mu Community, BAZUKA                   # //
+// # Nefrit Project 2012                            # //
+// ================================================== //
+
 #ifndef AntiAFK_H
 #define AntiAFK_H
 
