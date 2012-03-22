@@ -1,4 +1,10 @@
-#include "Stdafx.h" // test command
+// ================================================== //
+// # GameServer 1.00.90 WzAG.dll		    # //
+// # Credit: Mu Community, BAZUKA                   # //
+// # Nefrit Project 2012    	 	            # //
+// ================================================== //
+
+#include "Stdafx.h"
 #include "Main.h"
 #include "AntiAFK.h"
 #include "ChatCommands.h"
