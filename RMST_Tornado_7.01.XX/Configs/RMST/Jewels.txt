@@ -1,0 +1,27 @@
+// ================================================== //
+// # GameServer 1.00.90 : Jewels.txt		    # //
+// # RMST Tornado Project 2011		       	    # //
+// # http://rmsteam.org, http://mu.rmsteam.org	    # //
+// ================================================== //
+// ID - Jewel Number
+// Rate - Jewel Rate
+// Option1 - Jewel Option 1, ( 0 - no option, 1 - Item Option (+0 - +13) , 2 - Luck , 3 - Skill , 4 - Add Opt , 5 - Excellent Opt)
+// Option2 - Jewel Option 2, //--//
+// MaxOpt1 - Maximum Option on Item 1, ( Example: if you put "4" on Excellent Opt, your jewel will add max. 4 options)
+// MaxOpt2 - Maximum Option on Item 2, //--//
+// Fail1 - Fail Type 1, ( 0 - option disappear, 1 - with out changes , 2 - option will fall on "num" points)
+// Fail2 - Fail Type 2, //--//
+// FailOpt1 - if you put Fail1 = 2, enter "num"
+// FailOpt2 - if you put Fail2 = 2, enter "num"
+// Success1 - If Success, ( 1 - Increase Option, x - Increase "num" points)
+// Success2 - If Success, //--//
+
+
+//	ID	Rate(%) Option1	Option2	MinOpt1	MinOpt2	MaxOpt1	MaxOpt2	Fail1	Fail2	FailOpt1	FailOpt2	Success1	Success2	NameJewel
+0
+	180	40	5	0	0	0	6	0	0	0	0		0		1		1		// Jewel of Excellent
+	181	50	1	0	9	0	13	0	0	0	0		0		1		1		// Jewel of Divinity
+	183	100	4	0	0	0	5	0	0	0	0		0		1		1		// Jewel of Assembly
+	182	30	2	0	0	0	0	0	0	0	0		0		1		1		// Jewel of Luck
+	184	100	3	0	0	0	0	0	0	0	0		0		0		0		// Jewel of Skill
+end

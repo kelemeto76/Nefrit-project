@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7DD75EA0-106F-4609-B8AF-3DAA615C52FD}</ProjectGuid>
+    <RootNamespace>RMST_Tornado_701XX</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetExt>.dll</TargetExt>
+    <IntDir>$(SolutionDir)$(Configuration)\Temp\</IntDir>
+    <TargetName>WzAG</TargetName>
+    <OutDir>C:\MuServer\GameServer\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)$(Configuration)\Temp\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>WzAG</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>_GameServerCS_;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiAFK.cpp" />
+    <ClCompile Include="ChatCommands.cpp" />
+    <ClCompile Include="Configs.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="cSQL.cpp" />
+    <ClCompile Include="DropEvent.cpp" />
+    <ClCompile Include="DropSystem.cpp" />
+    <ClCompile Include="DuelManager.cpp" />
+    <ClCompile Include="Fixes.cpp" />
+    <ClCompile Include="GmSystem.cpp" />
+    <ClCompile Include="GoldenArcher.cpp" />
+    <ClCompile Include="HappyHour.cpp" />
+    <ClCompile Include="IPBlock.cpp" />
+    <ClCompile Include="Jewels.cpp" />
+    <ClCompile Include="Localize.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Maps.cpp" />
+    <ClCompile Include="MapSystem.cpp" />
+    <ClCompile Include="MarrySystem.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MossGambler.cpp" />
+    <ClCompile Include="MoveReq.cpp" />
+    <ClCompile Include="News.cpp" />
+    <ClCompile Include="PCPoints.cpp" />
+    <ClCompile Include="prodef.cpp" />
+    <ClCompile Include="Protection.cpp" />
+    <ClCompile Include="Protocol.cpp" />
+    <ClCompile Include="ProtocolFunct.cpp" />
+    <ClCompile Include="ResetSystem.cpp" />
+    <ClCompile Include="Tornado.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="Utilits.cpp" />
+    <ClCompile Include="VIP.cpp" />
+    <ClCompile Include="WzAG.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiAFK.h" />
+    <ClInclude Include="ChatCommands.h" />
+    <ClInclude Include="ConfigDefines.h" />
+    <ClInclude Include="Configs.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="cSQL.h" />
+    <ClInclude Include="DropEvent.h" />
+    <ClInclude Include="DropSystem.h" />
+    <ClInclude Include="DuelManager.h" />
+    <ClInclude Include="Fixes.h" />
+    <ClInclude Include="GmSystem.h" />
+    <ClInclude Include="GoldenArcher.h" />
+    <ClInclude Include="HappyHour.h" />
+    <ClInclude Include="IPBlock.h" />
+    <ClInclude Include="Jewels.h" />
+    <ClInclude Include="Localize.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Maps.h" />
+    <ClInclude Include="MapSystem.h" />
+    <ClInclude Include="MarrySystem.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MossGambler.h" />
+    <ClInclude Include="MoveReq.h" />
+    <ClInclude Include="News.h" />
+    <ClInclude Include="PCPoints.h" />
+    <ClInclude Include="Prodef.h" />
+    <ClInclude Include="Protection.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="ResetSystem.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="Utilits.h" />
+    <ClInclude Include="VIP.h" />
+    <ClInclude Include="WzAG.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configs\GameServerCS\GameServerCS.ini" />
+    <None Include="Configs\GameServerCS\GMSystem.txt" />
+    <None Include="Configs\GameServerCS\IPBlock.txt" />
+    <None Include="Configs\GameServerCS\News.txt" />
+    <None Include="Configs\GameServer\GameServer.ini" />
+    <None Include="Configs\GameServer\GMSystem.txt" />
+    <None Include="Configs\GameServer\IPBlock.txt" />
+    <None Include="Configs\GameServer\News.txt" />
+    <None Include="Configs\GameServer\VIPServer.ini" />
+    <None Include="Configs\GameServer\VIPSystem.ini" />
+    <None Include="Configs\RMST\AntiAFK.txt" />
+    <None Include="Configs\RMST\AntiFoul.ini" />
+    <None Include="Configs\RMST\CalcCharacter.ini" />
+    <None Include="Configs\RMST\Commands.ini" />
+    <None Include="Configs\RMST\Common.ini" />
+    <None Include="Configs\RMST\Events.ini" />
+    <None Include="Configs\RMST\GoldenArcher.txt" />
+    <None Include="Configs\RMST\HappyHour.ini" />
+    <None Include="Configs\RMST\ItemDropSettings.txt" />
+    <None Include="Configs\RMST\Items.ini" />
+    <None Include="Configs\RMST\Jewels.txt" />
+    <None Include="Configs\RMST\MarrySystem.ini" />
+    <None Include="Configs\RMST\MaximumStats.ini" />
+    <None Include="Configs\RMST\MossGambler.ini" />
+    <None Include="Configs\RMST\MossGamblerEventTime.dat" />
+    <None Include="Configs\RMST\MoveReq.txt" />
+    <None Include="Configs\RMST\PCPoints_WCoins.dat" />
+    <None Include="Configs\RMST\Pets.ini" />
+    <None Include="Configs\RMST\PkClearGuard.ini" />
+    <None Include="Configs\RMST\QuestSystem.ini" />
+    <None Include="Configs\RMST\ResetSystem.ini" />
+    <None Include="Configs\RMST\Skills.ini" />
+    <None Include="Configs\RMST\Syntax.txt" />
+    <None Include="Configs\RMST\Translations\RU.txt" />
+    <None Include="Configs\WzEvents\EventDropBC.txt" />
+    <None Include="Configs\WzEvents\EventDropCC.txt" />
+    <None Include="Configs\WzEvents\EventDropIT.txt" />
+    <None Include="Configs\WzEvents\EventDropWW.txt" />
+    <None Include="Modules.txt" />
+    <None Include="Configs\RMST\MonsterSpawn.ini" />
+    <None Include="TODO.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,78 @@
+// ================================================== //
+// # GameServer 1.00.90 : PCPoints_WCoins.dat	    # //
+// # RMST Tornado Project 2011		       	    # //
+// # http://rmsteam.org, http://mu.rmsteam.org	    # //
+// ================================================== //
+
+[PCPoints]
+PCPointsSystem = 1 //0: Disabled, 1: Enabled
+MaximumPCPoints = 10000
+// dbo.Character
+PCPointsColumn = PCPoint
+AddPCPointsSec = 3600
+AddPCPointsCount = 10
+
+[WCoins]
+// dbo.MEMB_INFO
+WCoinsColumn = cspoints
+MaximumWCPoints = 10000
+
+[ExchangeCommands]
+ExchangeCommands 	= 1
+WcPpCmdEnabled		= 1	// /wcoin-pcpoint
+WcZenCmdEnabled		= 1	// /wcoin-zen
+PpZenCmdEnabled		= 1	// /pcpoint-zen
+PpWcCmdEnabled		= 1	// /pcpoint-wcoin
+ZenWcCmdEnabled		= 1	// /zen-wcoin
+ZenPpCmdEnabled		= 1	// /zen-pcpoint
+ExchangeMinLvl		= 350
+
+ExchangeTax		= 2		// Percent of the tax (процент налога)
+WCoin_PcPoint 		= 100 		// (pay 1 WCoin for 100 PCPoint)  percent of the tax
+WCoin_Zen 		= 10000000 	// (pay 1 WCoin for 10000000 Zen) 
+PcPoint_Zen 		= 100000	// (pay 1 PCPoint for 100000 Zen)
+
+//===========================================================================================================================
+//PCPoints Cafe Shop 
+//===========================================================================================================================
+//Index	ID	X	Y	Level	Opt	Luck	Skill	Dur	Exc	NewOpt1	NewOpt2	NewOpt3	NewOpt4	NewOpt5	Cost
+//===========================================================================================================================
+0
+13	43	1	1	0	0	0	0	255	0	255	255	255	255	255	6
+13	44	1	2	0	0	0	0	255	0	255	255	255	255	255	9
+13	45	1	3	0	0	0	0	255	0	255	255	255	255	255	15
+14	55	1	4	0	0	0	0	255	0	255	255	255	255	255	9
+14	56	1	5	0	0	0	0	255	0	255	255	255	255	255	15
+14	57	1	6	0	0	0	0	255	0	255	255	255	255	255	30
+13	15	1	6	0	0	0	0	255	0	255	255	255	255	255	100
+end
+
+//===========================================================================================================================
+//PCPoints Reward from Monsters
+//===========================================================================================================================
+1
+275	10
+310	20
+311	20
+312	20
+313	20
+314	20
+315	20
+316	20
+317	20
+end
+
+//===========================================================================================================================
+//CashShop Points (W Coins) Reward from Monsters
+//===========================================================================================================================
+2
+275	10
+310	20
+311	20
+312	20
+313	20
+314	20
+315	20
+316	20
+317	20
+end

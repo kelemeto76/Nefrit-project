@@ -1,0 +1,347 @@
+// ================================================== //
+// # GameServer 1.00.90 : QuestSystem.txt	    # //
+// # RMST Tornado Project 2011		       	    # //
+// # http://rmsteam.org, http://mu.rmsteam.org	    # //
+// ================================================== //
+
+//////////////////////////////////////////////////
+// Detailed description of QuestSystem.ini	//
+// Поэтапное пояснение QuestSystem.ini		//
+//////////////////////////////////////////////////
+
+[QuestSystem]
+Enabled			=	1	// [1/0] Enabled/Disabled system 
+					// [1/0]Включена/выключена система
+					
+NPCId			=	257	// Npc number for using quest system 
+					// Номер NPC для использования системы
+					
+MsgCost			=	10000	// Cost of each message sent by friend system 
+					// Стоимость каждого отправленного сообщения фрэнд системой
+
+0	
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//		Requirments of quest system | Требования квест системы				//
+//////////////////////////////////////////////////////////////////////////////////////////////////
+	ID			- Number of the quest
+	[0 - 32767]		- Номер квеста
+	
+	MinLvl			- Minimal level for quest
+	[-1 - MaxLvl]	  	  If MinLvl = -1, quest could be taken players with any lvl no matter
+				  what number stay in MaxLvl config
+				- Минимальный левел для квеста
+				  Если MinLvl = -1, квест может быть взят игроком с любым lvl 
+				  несмотря на то, какой номер в MaxLvl стоит			
+	
+	MaxLvl			- Maximum level for quest
+	[MinLvl - 1000]		- Максимальный левел для квеста
+	
+	MinReset		- Minimal reset for quest
+	[-1 - ManReset]	  	  If MinReset = -1, quest could be taken players with any reset no matter
+				  what number stay in MaxReset config
+				- Минимальный левел для квеста
+				  Если MinReset = -1, квест может быть взят игроком с любым ресетом 
+				  несмотря на то, какой номер в MaxReset стоит	
+			  
+	MaxReset		- Maximum reset for quest
+	[MinReset - 1000]	- Максимальный ресет для квеста
+			
+	DK			- -1 = Can be taken by any of Knight
+	[-1 - 3]		   0 = Can't be taken by any of Knight
+				   1 = Can take only Dark Knight
+				   2 = Can take only Blade Knight
+				   3 = Can take only Blade Master
+				- -1 = Может взять любой Воин
+				   0 = Не может быть взят Войном
+				   1 = Может взять только Dark Knight
+				   2 = Может взять только Blade Knight
+				   3 = Может взять только Blade Master
+			
+	DW			- -1 = Can be taken by any of Wizard
+	[-1 - 3]		   0 = Can't be taken by any of Wizard
+				   1 = Can take only Dark Wizard
+				   2 = Can take only Soul Master
+				   3 = Can take only Grand Master
+				- -1 = Может взять любой Маг
+				   0 = Не может быть взят Магом
+				   1 = Может взять только Dark Wizard
+				   2 = Может взять только Soul Master
+				   3 = Может взять только Grand Master	
+			
+	ELF			- -1 = Can be taken by any of Elf
+	[-1 - 3]		   0 = Can't be taken by any of Elf
+				   1 = Can take only Fairy Elf
+				   2 = Can take only Muse Elf
+				   3 = Can take only High Elf
+				- -1 = Может взять любой Ельф
+				   0 = Не может быть взят Ельфом
+				   1 = Может взять только Fairy Elf
+				   2 = Может взять только Muse Elf
+				   3 = Может взять только High Elf
+			
+	MG			- -1 = Can be taken by any of Magic Gladiator
+	[-1 - 2]		   0 = Can't be taken by any of Magic Gladiator
+				   1 = Can take only Magic Gladiator
+				   2 = Can take only Duel Master
+				- -1 = Может взять любой Маг Гладиатор
+				   0 = Не может быть взят Маг Гладиатором
+				   1 = Может взять только Magic Gladiator
+				   2 = Может взять только Duel Master
+			
+	DL			- -1 = Can be taken by any of Dark Lord
+	[-1 - 2]		   0 = Can't be taken by any of Dark Lord
+				   1 = Can take only Dark Lord
+				   2 = Can take only Lord Emperor
+				- -1 = Может взять любой Тёмный Лорд
+				   0 = Не может быть взят Тёмным Лордом
+				   1 = Может взять только Dark Lord
+				   2 = Может взять только Lord Emperor
+			
+	SUM			- -1 = Can be taken by any of Summoner
+	[-1 - 3]		   0 = Can't be taken by any of Summoner
+				   1 = Can take only Summoner
+				   2 = Can take only Bloody Summoner
+				   3 = Can take only Dimension Master
+				- -1 = Может взять любой Сумонер
+				   0 = Не может быть взят Сумонером
+				   1 = Может взять только Summoner
+				   2 = Может взять только Bloody Summoner
+				   3 = Может взять только Dimension Master
+			
+	Pcpoint			- Ammount of PcPoints that needed to pay for getting quest
+	[0 - 32767]		- Кол-во PsPoint нужное чтобы заплатить за взятие квеста
+			
+	Wcoin			- Ammount of Wcoin that needed to pay for getting quest
+	[0 - 32767]		- Кол-во Wcoin нужное чтобы заплатить за взятие квеста
+			
+	Zen			- Ammount of Zen that needed to pay for getting quest
+	[0 - 2000000000]	- Кол-во Zen нужное чтобы заплатить за взятие квеста
+end
+
+1	
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//				Options of quest | Опции квеста					//
+//////////////////////////////////////////////////////////////////////////////////////////////////
+	ID		- Number of the quest
+	[0 - 32767]	- Номер квеста
+	
+	Move		- 0 = Player Can't move to other maps by M key and commands
+	[0/1]		  1 = Player Can move to other maps by M key and commands			
+			- 0 = Игрок Не может телепортироваться на другие карты используя меню телепортации
+			      или команды
+			  1 = Игрок Может телепортироваться на другие карты используя меню телепортации
+			      или команды
+	
+	TP		- 1 = Teleport player in [Map,X,Y] by starting quest
+	[0/1]		  0 = Don't teleport
+			- 1 = Телепортирует игрока в выбранные координаты карты при принятии квеста
+			  0 = Не телепортирует
+	
+	Map		- Choosen Map for teleport
+	[0 - 255]	- Выбронная Карта для телепортации
+	
+	X		- Choosen X Сoordinates for teleport
+	[0 - 255]	- Выбронные X Координаты для телепортации
+	
+	Y		- Choosen Y Сoordinates for teleport
+	[0 - 255]	- Выбронные Y Координаты для телепортации
+	
+	Death		- 0 = Player can't die while quest choosen, if he die, quest canceled
+	[0/1]		  1 = Player can die
+			- 0 = Игрок не должен умереть проходя квест, если он умирает, квест заканчиваеться
+			  1 = Игрок может умирать
+			  
+	Kill		- 0 = Player can't kill monsters insteed of quest one
+	[0/1]		  1 = Player can kill any monster
+			- 0 = Игрок не может убивать монстров, кроме квестовых
+			  1 = Игрок может убивать любых монстров
+			  
+	PK		- 0 = Player can't kill other players while quest choosen
+	[0/1]		  1 = Player can kill other players
+			- 0 = Игрок не может убивать других игроков проходя квест
+			  1 = Игрок может убивать других игроков
+			  
+	Exp		- 0 = Player would not get Exp for killing monsters while quest choosen	
+	[0/1]		  1 = Player would get Exp for killing monsters
+			- 0 = Игрок не будет получать Опыт за убийство монстров проходя квест
+			  1 = Игрок будет получать Опыт за убийство монстров
+	
+	Trade		- 0 = Trade not allowed while quest choosen
+	[0/1]		  1 = Trade allowed while quest choosen
+			- 0 = Торговля с другими игроками запрещена проходя квест
+			  1 = Торговля с другими игроками разрешена
+	
+	Party		- 0 = Party not allowed while quest choosen
+	[0/1]		  1 = Party allowed while quest choosen
+			- 0 = Парти с другими игроками запрещена проходя квест
+			  1 = Парти с другими игроками разрешена
+	
+	Reset		- 0 = Player can't make Resets while quest choosen
+	[0/1]		  1 = Player can make Resets
+			- 0 = Игрок не может делать Ресеты проходя квест
+			  1 = Игрок может делать Ресеты
+			  
+	Shops		- 0 = Player can't Shopping while quest choosen
+	[0/1]		  1 = Player can Shopping
+			- 0 = Игрок не может делать Покупки проходя квест
+			  1 = Игрок может делать Покупки
+			  
+	Vault		- 0 = Player can't use Vault while quest choosen
+	[0/1]		  1 = Player can use Vault
+			- 0 = Игрок не может использовать Сундук проходя квест
+			  1 = Игрок может использовать Сундук
+end
+
+2
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//	Short name of quest and description | Короткое название квеста и его описание		//
+//////////////////////////////////////////////////////////////////////////////////////////////////
+	ID		- Number of the quest
+	[0 - 32767]	- Номер квеста
+	
+	Name		- Short name of the quest
+			- Короткое название квеста
+			
+	Descriptionend	- Description of the quest
+			- Описание квеста
+end
+
+3
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//			Monster settings | Настройки монстров					//
+//////////////////////////////////////////////////////////////////////////////////////////////////
+	ID			- Number of the quest
+	[0 - 32767]		- Номер квеста
+	
+	MobCnt			- Count of needed to be killed monster for ending quest
+	[0 - 32767]		- Кол-во убитых монстров для прохождения квеста
+
+	Id			- Id of the monster
+	[0 - 32767]		- Id монстра
+	
+	MinLvl			- MinLevel of monster, worked only with pare of MaxLevel,
+	[0 - MaxLvl]		  if MinLvl = -1, pare don't work
+				- Минимальный левел монстра, работает в паре с Максимальным левелом монстра,
+				  если MinLvl = -1, пара не работает
+	
+	MaxLvl			- MaxLevel of monster, worked only with rage of MinLevel,
+	[MinLvl - 32767]	  if MaxLvl > MinLvl, pare don't work
+				- Максимальный левел монстра, работает в паре с Минимальным левелом монстра,
+				  если MaxLvl > MinLvl, пара не работает
+	
+	Map			- Map on what monster need to be killed		
+	[0 - 255]		- Карта на которой должен быть убит монстр
+end
+
+4
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//			Items settings | Настройки вещей					//
+//////////////////////////////////////////////////////////////////////////////////////////////////
+	ID		- Number of the quest
+	[0 - 32767]	- Номер квеста
+
+	ItemCnt		- Count of items that need to be given for quest
+	[0 - 32767]	- Кол-во вещей которые нужно принести за квест
+
+	Index		- Index of group
+	[0 - 15]	- Индекс группы
+
+	ItemIndex	- Index of item
+	[0 - 255]	- Индекс вещи
+	
+	Level		- Level of item
+	[-1 - 13]	  -1 = Any level of item
+			- Левел вещи
+			  -1 = Любой левел вещи
+
+	Skill		- 0 = Item Without Skill only
+	[-1 - 1]	  1 = Item With Skill only
+			 -1 = No matter With or Without Skill
+			- 0 = Вещь только без скила
+			  1 = Вещь только со скилом
+			 -1 = Не важно, с или без скила
+			 
+	Luck		- 0 = Item Without Luck only
+	[-1 - 1]	  1 = Item With Luck only
+			 -1 = No matter With or Without Luck
+			- 0 = Вещь только без лака
+			  1 = Вещь только с лаком
+			 -1 = Не важно, с или без лака
+	
+	Opt		- Option of the item
+	[-1 - 24]	  -1 = Any option
+			- Опции вещи
+			  -1 = Любые опции
+	
+	Exc		- Excelent option of the item
+	[-1 - 63]	  -1 = Any Excelent option
+			- Exe опции вещи
+			  -1 = Любые Exe опции
+end
+
+5
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//			Price for quest | Приз за пройденный квест				//
+//////////////////////////////////////////////////////////////////////////////////////////////////	
+	ID		- Number of the quest
+	[0 - 32767]	- Номер квеста
+
+	Exp		- Ammount of price Exp for quest
+	[0 - 2M]	- Кол-во подарочного Exp за квест
+	
+	Lvl		- Ammount of price Lvl
+	[0 - 1000]	- Кол-во подарочных Левелов
+	
+	Stats		- Ammount of price free points for adding stats
+	[0 - 32767]	- Кол-во подарочных поинтов для раскидки статов
+
+	Zen		- Ammount of price Zen
+	[0 - 2M]	- Кол-во подарочных Zen
+
+	PcPoint		- Ammount of price PcPoint
+	[0 - 32767]	- Кол-во подарочных PcPoint
+
+	WCoin		- Ammount of price WCoin
+	[0 - 32767]	- Кол-во подарочных WCoin
+end
+
+6
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//		Price by item for quest | Приз в виде шмотки за пройденный квест		//
+//////////////////////////////////////////////////////////////////////////////////////////////////	
+	ID		- Number of the quest
+	[0 - 32767]	- Номер квеста
+
+	ItemCnt		- Count of items that would be given for quest
+	[0 - 32767]	- Кол-во вещей которые дадут за квест
+
+	Index		- Index of group
+	[0 - 15]	- Индекс группы
+
+	ItemIndex	- Index of item
+	[0 - 255]	- Индекс вещи
+	
+	Level		- Level of item
+	[0 - 13]	- Левел вещи
+
+	Skill		- 0 = Item Without Skill only
+	[0 - 1]		  1 = Item With Skill only
+			- 0 = Вещь только без скила
+			  1 = Вещь только со скилом
+			 
+	Luck		- 0 = Item Without Luck only
+	[0 - 1]		  1 = Item With Luck only
+			- 0 = Вещь только без лака
+			  1 = Вещь только с лаком
+	
+	Opt		- Option of the item
+	[0 - 24]	- Опции вещи
+	
+	Exc		- Excelent option of the item
+	[0 - 63]	- Exe опции вещи
+end
+
+//////////////////////////////////////////////////
+// That's all, thx for reading!			//
+// Вот и всё, спасибо за чтение!		//
+//////////////////////////////////////////////////

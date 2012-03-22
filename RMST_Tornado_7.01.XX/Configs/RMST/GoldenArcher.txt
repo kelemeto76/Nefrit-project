@@ -1,0 +1,24 @@
+// ================================================== //
+// # GameServer 1.00.90 : GoldenArcher.txt	    # //
+// # RMST Tornado Project 2011		       	    # //
+// # http://rmsteam.org, http://mu.rmsteam.org	    # //
+// ================================================== //
+
+[GoldenArcher]
+ArcherEnabled		= 1
+RenasCount		= 7
+WCoinsReward		= 10
+PCPointsReward		= 10
+MaxExcOpt		= 3
+ZenReward		= 10000000
+
+//----------------------------------------------------------------------//
+//      Index   ItemID  Level   Skill    Luck   Opt     Exc	Name	//
+//----------------------------------------------------------------------//
+0
+	12	15	0	0	0	0	0 	//Jewel of Chaos
+	14	13	0	0	0	0	0 	//Jewel of Bless
+	14	14	0	0	0	0	0 	//Jewel of Soul
+	14	16	0	0	0	0	0 	//Jewel of Life
+	14	22	0	0	0	0	0 	//Jewel of Creation
+end

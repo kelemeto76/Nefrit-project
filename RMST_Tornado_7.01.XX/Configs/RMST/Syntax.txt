@@ -1,0 +1,62 @@
+// ================================================== //
+// # GameServer 1.00.90 : Syntax.txt		    # //
+// # RMST Tornado Project 2011		       	    # //
+// # http://rmsteam.org, http://mu.rmsteam.org	    # //
+// ================================================== //
+// This is Private module and not Available in Public version
+
+[General]
+Translation = 1
+Language = EN.txt
+
+//#####################################################//
+//!!!DON'T WRITE SOMETHING AFTER NEW SELECTED SYNTAX!!!//
+//#####################################################//
+
+
+[SyntaxSystem]
+GgCmd = /gg
+PostCmd = /post
+BanPost = /banpost
+UnBanPostCmd = /unbanpost
+BanCharCmd = /banchar
+UnBanCharCmd = /unbanchar
+BanAccCmd = /banacc
+UnBanAccCmd = /unbanacc
+TimeCmd = /time
+EvoCmd = /evo
+WcPpCmd = /wcoin-pcpoint
+WcZenCmd = /wcoin-zen
+PpZenCmd = /pcpoint-zen
+PpWcCmd = /pcpoint-wcoin
+ZenWcCmd = /zen-wcoin
+ZenPpCmd = /zen-pcpoint
+YesCmd = /yes
+NoCmd = /no
+AddStrCmd = /addstr
+AddAgiCmd = /addagi
+AddVitCmd = /addvit
+AddEneCmd = /addene
+AddComCmd = /addcmd
+SetZenCmd = /setzen
+SetCharCmd = /setchar
+SetPKCmd = /setpk
+PKClearCmd = /pkclear
+ResetCmd = /reset
+SkinCmd = /skin
+DropCmd = /drop
+SetDropCmd = /setdrop
+GMoveCmd = /gmove
+WareCmd = /ware
+OnlineCmd = /online
+StatusCmd = /status
+ReloadCmd = /reload
+MarryOnlineCmd = /marryonline
+MarryTraceCmd = /marrytrace
+IsMarryCmd = /ismarry
+DivorceCmd = /divorce
+ZenDropCmd = /zendrop
+LevelCmd =  /level
+MobAddCmd = /mobadd
+BuyVIPServvCmd = /buyvipserv
+CheckVIPCmd = /checkvip

@@ -1,0 +1,1017 @@
+#######################
+### some words here ###
+#######################
+
+Total Online: %d/%d
+== Игроков в игре: %d/%d
+
+Server Time & Date: %02d:%02d:%02d %02d-%02d-%04d.
+== Время и дата сервера: %02d:%02d:%02d %02d-%02d-%04d.
+
+[AntiAfk][%s] Current Warning Number: %d
+== [АнтиАфк][%s] Предупреждение №%d
+
+[AntiAfk] Warping To Lorencia Safe Zone!!!
+== [АнтиАфк] Телепортация в Лоренсию!!!
+
+[BanPost] At %d month, %d day, %d hour, %d minute will end...
+== [ПостБан] Закончится через %d месяцев, %d дней, %d часов, %d минут...
+
+[BanPost] Your BanPost Time ended! Now u can post.
+== [ПостБан] Время пост бана закончилось! Теперь вы можете постить.
+
+Guild Aliance
+== Альянс гильдий
+
+Guild
+== Гильдия
+
+Party
+== Партия
+
+Post
+== Глобальное сообщение
+
+Chat
+== Чат
+
+[GoldMessage] %s
+== [Золотое Сообщение] %s
+
+[%s:%s][GoldMessage] %s
+== [%s:%s][Золотое Сообщение] %s
+
+[%s] Usage: %s
+== [%s] Использование: %s
+
+[%s] Function temporarily disabled.
+== [%s] Функция отключена.
+
+[%s] You can't use this command.
+== [%s] Вы не можете использовать эту команду.
+
+[%s] Player offline or doesn't exist!
+== [%s] Игрока нет в игре, или он не существует!
+
+[AntiFoul] Sorry, Chat for you in ban!
+== [АнтиМат] Извините, для вас чат забанен!
+
+[AntiFoul] Warning № %d. You is speaking bad! Fine %d Zen
+== [АнтиМат] Предупреждение № %d. Вы говорите плохими словами! Штраф %d Zen
+
+[AntiFoul] Lost Warning! Please, not speak bad, else you get ban! Fine %d Zen
+== [AntiFoul] Последнее предупреждение! Пожалуйста, не говорите плохими словами, или получите бан! Штраф %d Zen
+
+[AntiFoul] You account is banned !
+== [АнтиМат] Ваш аккаунт забанен !
+
+[AntiFoul] You charaster is banned !
+== [АнтиМат] Ваш персонаж забанен !
+
+[AntiFoul] %s For You ChatBan time ended! Please, don`t send bad words
+== [АнтиМат] %s для вас время ЧатБана закончилось! Пожалуйста, не ругайтесь матом.
+
+[BanPost] Your BanPost Time ended! Now u can post.
+== [БанПост] Ваш бан бост закончился! Вы снова можете писать.
+
+[Reset] You cancel reset
+== [Ресет] Вы отменили ресет
+
+You cancel marriage
+== Вы отменили свадьбу
+
+You cancel divorce
+== Вы отменили развод
+
+[Exchanger] Write /yes or /no for answer. You have 30 secs.
+== [Обменник] Пишите /yes или /no для ответа. У вас осталось 30 секунд.
+
+[Exchanger] You have 15 secs more for answer...
+== [Обменник] У вас осталось 15 секунд для ответа...
+
+[Exchanger] You have 10 secs more for answer...
+== [Обменник] У вас осталось 10 секунд для ответа...
+
+[Exchanger] You have 5 secs more for answer...
+== [Обменник] У вас осталось 5 секунд для ответа...
+
+[Exchanger] You have 3 secs more for answer...
+== [Обменник] У вас осталось 3 секунд для ответа...
+
+[Exchanger] You have 2 secs more for answer...
+== [Обменник] У вас осталось 2 секунд для ответа...
+
+[Exchanger] You have 1 secs more for answer...
+== [Обменник] У вас осталось 1 секунд для ответа...
+
+[Exchanger] Time is over. The deal canceled!
+== [Обменник] Время закончилось. Обмен отмен!
+
+[Drop] You lucked by %s with %d items! Take them faster!
+== [Дроп] %s Выдал вам %d вещей! Берите их быстрее!
+
+[SetDrop] You lucked by %s with items! Take them faster!
+== [СетДроп] %s Выдал вам вещи! Берите их быстрее!
+
+[Reload] GMSystem is disabled
+== [Перезагрузка] GMSystem выключена
+
+[Reload] Usage: /reload <Number>
+== [Перезагрузка] Используйте: /reload <номер>
+
+[Reload] This function use only GM
+== [Перезагрузка] Эту функцию использует только ГМ
+
+Can't find file!\nTaked default value for %s(%ld)
+== 
+
+Can't find '%s' in [%s] section!\nTaked default value for %s(%ld)
+==
+
+%s(%d) in [%s] is out of range!\nMin = %ld\t\tMax = %ld\nTaked default value(%ld)
+==
+
+Can't find file!\nTaked default value for %s(%ld)
+==
+
+Can't find '%s' in [%s] section!\nTaked default value for %s(%ld)
+==
+
+%s(%d) in [%s] is out of range!\nMin = %ld\t\tMax = %ld\nTaked default value(%ld)
+==
+
+[Golden Archer] Anti-Hack System. Please wait 1.5 sec
+== [Golden Archer] Анти-хак система. Пожалуйста подождите 1.5 секунды
+
+[Golden Archer] Thank you for renas! Take my rewards for you.
+== [Golden Archer] Спасибо за рены! Держите мою награду для вас.
+
+[Jewel] Congratulation, Item Update is Successfully
+== [Jewel] Поздравляем, обновление предмета произведено успешно
+
+[Jewel] Sorry, Item Update is Fail
+== [Jewel] Извините, обновление предмета неуспешно
+
+[Jewel] Sorry, you can`t not use jewel on this item
+== [Jewel] Извините, вы не можете использовать jewel на этом предмете
+
+[Marriage] Write /yes or /no for answer. You have 30 secs.
+== [Свадьба] Напишите /yes или /no для ответа. У вас есть 30 сек.
+
+[Marriage] You have 15 secs more for answer...
+== [Свадьба] У вас осталось 15 секунд для ответа...
+
+[Marriage] You have 10 secs more for answer...
+== [Свадьба] У вас осталось 10 секунд для ответа...
+
+[Marriage] You have 5 secs more for answer...
+== [Свадьба] У вас осталось 5 секунд для ответа...
+
+[Marriage] You have 3 secs more for answer...
+== [Свадьба] У вас осталось 3 секунд для ответа...
+
+[Marriage] You have 2 secs more for answer...
+== [Свадьба] У вас осталось 2 секунд для ответа...
+
+[Marriage] You have 1 secs more for answer...
+== [Свадьба] У вас осталось 1 секунд для ответа...
+
+[Marriage] You don't have high lvl! Need %d more.
+== [Свадьба] Вы не достигли максимального уровня! Нужно еще %d.
+
+[Marriage] You don't have enough zen! Need %d more.
+== [Свадьба] У вас не хватает Zen! Нужно еще %d. 
+
+[Marriage] You don't have enough PCPoints! Need %d more.
+== [Свадьба] У вас не хватает PCPoint'ов! Нужно еще %d.
+
+[Marriage] You don't have enough WCoins! Need %d more.
+== [Свадьба] У вас не хватает WCoins'ов! Нужно еще %d.
+
+[Marriage] You don't have right items. Check it one more time.
+== [Свадьба] У вас нет правильных вещей. Проверьте их еще раз.
+
+[Marriage] Do you really want to marry?
+== [Свадьба] Вы действительно хотите вступить в брак?
+
+[Marriage] Do you really want to divorce with %s?
+== [Свадьба] Вы действительно хотите развестись с %s?
+
+[Divorce] You don't have high lvl! Need %d more.
+== [Развод] Вам не хватает уровня! Нужно еще %d. 
+
+[Divorce] You don't have enough zen! Need %d more.
+== [Развод] Вам не хватает Zen! Нужно еще %d. 
+
+[Divorce] You don't have enough PCPoints! Need %d more.
+== [Развод] Вам не хватает PCPoints'ов! Нужно еще %d. 
+
+[Divorce] You don't have enough WCoins! Need %d more.
+== [Развод] Вам не хватает WCoins'ов!! Нужно еще %d. 
+
+[Moss The Gambler] Please wait 1.5 second after a previous purchase
+== [Moss The Gambler] Пожалуйста подождите 1.5 секунды после предыдущей покупки.
+
+[Moss The Gambler] Moss The Gambler function is disabled.
+== [Moss The Gambler] Moss The Gambler выключен.
+
+[Moss The Gambler] You haven't got enougth money.
+== [Moss The Gambler] У вас не достаточно Zen.
+
+[Moss The Gambler] You haven't got enougth PCPoints.
+== [Moss The Gambler] У вас не достаточно PCPoints.
+
+[Moss The Gambler] You haven't got enougth WCoins.
+== [Moss The Gambler] У вас не достаточно WCoins.
+
+[Moss The Gambler] Your Inventory is full
+== [Moss The Gambler] Ваш инвентарь переполнен
+
+[Moss The Gambler] Congratulations, you are very lucky!!!
+== [Moss The Gambler] Поздравляем, вы счастливчик!
+
+[Marry] You are married, %s is now online!
+== [Свадьба] Ваш(а) возлюбленный(ая), %s находится в игре!
+
+[Marry] %s getting online!
+== [Свадьба] %s Вошел в игру!
+
+[Marry] You are married, %s is now offline!
+== [Свадьба] Ваш(а) возлюбленный(ая), %s вышел(ла) из игры!
+
+You don't have enought Resets, you need %d more resets.
+== У вас не хватает Ресетов, нужно еще %d.
+
+You don't have enought Level, you need %d more Level.
+== У вас не хватает Уровня, нужно еще %d.
+
+[Moss The Gambler] PK players can`t use Moss The Gambler
+== [Moss The Gambler] PK пользователи не могут использовать Moss The Gambler
+
+[QuestSystem] You must kill 10 spider`s and droping 4 apple
+==
+
+[Quest System] Sucessfully! You Quest Finish. Take my rewards for you 
+== 
+
+[Quest System] Kill please %d spiders
+== [Квест система] Убейте пожалуйста %d пауков
+
+[Quest System] Search for me please %d apple
+== [Квест система] Найдите для меня пожалуйста %d яблок
+
+[Reset] Write /yes or /no for answer. You have 30 secs.
+== [Ресет] Впишите /yes или /no для ответа. У вас есть 30 сек.
+
+[Reset] You have 15 secs more for answer...
+== [Ресет] У вас осталось 15 секунд для ответа...
+
+[Reset] You have 10 secs more for answer...
+== [Ресет] У вас осталось 10 секунд для ответа...
+
+[Reset] You have 5 secs more for answer...
+== [Ресет] У вас осталось 5 секунд для ответа...
+
+[Reset] You have 3 secs more for answer...
+== [Ресет] У вас осталось 3 секунд для ответа...
+
+[Reset] You have 2 secs more for answer...
+== [Ресет] У вас осталось 2 секунд для ответа...
+
+[Reset] You have 1 secs more for answer...
+==  [Ресет] У вас осталось 1 секунд для ответа...
+
+[Reset] Time is over. Reset canceled!
+== [Ресет] Время закончилось. Ресет отменен!
+
+RESET = %d!
+== РЕСЕТ = %d!
+
+Column = %s loled
+== Колонка = %s loled
+
+[AntiAfk][%s] Current Warning Number: %d
+== [АнтиАфк][%s] Текущее предупреждение: %d
+
+[AntiAfk] Warping To Lorencia Safe Zone!!!
+==  [АнтиАфк] Телепортирование в сейф зону Lorencia. 
+
+[%s] Usage: %s
+==
+
+[%s] Function temporarily disabled.
+==
+
+[%s] You haven't got enougth level.
+==
+
+[%s] You haven't got enougth money.
+==
+
+[%s] You need %d more PcPoints.
+==
+
+[%s] You need %d more WCoins.
+==
+
+[%s] You payed %d PcPoints
+==
+
+[%s] You payed %d WCoin
+==
+
+[Trace] You successfully traced to %s
+==
+
+[Track] You successfully summoned %s
+==
+
+[Disconnect] %s was disconnected.
+==
+
+[POST] You can't post.
+==
+
+[ANTI-FLOOD] Wait %d sec until you can post!
+==
+
+[BanPost] %s BanPost Time is updated to %s
+==
+
+[BanPost] Your BanPost Time was updated on %d month, %d day, %d hour, %d minute by %s
+==
+
+[BanPost] %s Added BanPost to %s
+==
+
+[BanPost] Your Post was Banned on %d month, %d day, %d hour, %d minute by %s
+==
+
+[BanPost] %s's post is not banned
+==
+
+[BanPost] %s's post sucsessfuly UnBanned!
+==
+
+[BanPost] Your Post was UnBanned! Now you can post!
+==
+
+[BanChar] %s is already banned
+==
+
+[BanChar] %s banned
+==
+
+[BanAcc] %s banned, character %s disconnected.
+==
+
+[UnBanChar] %s is not baned
+==
+
+[UnBanChar] %s UnBaned
+==
+
+[UnBanAcc] %s is not baned
+==
+
+[UnBanAcc] %s UnBaned
+==
+
+Server Time & Date: %02d:%02d:%02d %02d-%02d-%02d.
+==
+
+[Exchanger] You can't make other purchase. Answer previous please.
+==
+
+[Exchanger] You write not right value. Write %d or %d.
+==
+
+[Exchanger] You write not right value. Write %d.
+==
+
+[Exchanger] You don't have enough WCoins. %d more need.
+==
+
+[Exchanger] You can't buy more PCPoints.
+==
+
+[Exchanger] You really want to buy %d PCPoints with %d tax and pay %d WCoins?
+==
+
+[Exchanger] You can't make other purchase. Answer previous please.
+==
+
+[Exchanger] You write not right value. You can write %d or %d.
+==
+
+[Exchanger] You write not right value. You can write %d.
+==
+
+[Exchanger] You don't have enough WCoins. %d more need.
+==
+
+[Exchanger] You can't buy more Zen.
+==
+
+[Exchanger] You really want to buy %d Zen with %d tax and pay %d WCoins?
+==
+
+[Exchanger] You can't make other purchase. Answer previous please.
+==
+
+[Exchanger] You write not right value. You can write %d or %d.м
+==
+
+[Exchanger] You write not right value. You can write %d.
+==
+
+[Exchanger] You don't have enough PCPoint. %d more need.
+==
+
+[Exchanger] You can't buy more Zen.
+==
+
+[Exchanger] You really want to buy %d Zen with %d tax and pay %d PCPoint?
+==
+
+[Exchanger] You can't make other purchase. Answer previous please.
+==
+
+[Exchanger] You don't have enough Zen. %d more need.
+==
+
+[Exchanger] You can't buy more WCoins.
+==
+
+[Exchanger] You really want to buy %d Wcoin and pay %d zen with %d zen tax?
+==
+
+[Exchanger] You can't make other purchase. Answer previous please.
+==
+
+[Exchanger] You don't have enough Zen. %d more need.
+==
+
+[Exchanger] You can't buy more PCPoints.
+==
+
+[Exchanger] You really want to buy %d PCPoints and pay %d zen with %d zen tax?
+==
+
+[Exchanger] You can't make other purchase. Answer previous please.
+==
+
+[Exchanger] You don't have enough PCPoints. %d more need.
+==
+
+[Exchanger] You can't buy more WCoins.
+==
+
+[Exchanger] You really want to buy %d WCoins and pay %d PCPoints with %d PCPoints tax?
+==
+
+[Exchanger] You don't make purchase. Make it before answer.
+==
+
+[Exchanger] You buy %d PCPoints for %d WCoins! Thx you!
+==
+
+[Exchanger] You buy %d Zen for %d PCPoints! Thx you!
+==
+
+[Exchanger] You buy %d Zen for %d WCoins! Thx you!
+==
+
+[Exchanger] You buy %d WCoins for %d PCPoints! Thx you!
+==
+
+[Exchanger] You buy %d PCPoints for %d Zen! Thx you!
+==
+
+[Exchanger] You buy %d WCoins for %d Zen! Thx you!
+==
+
+[Exchanger] You don't make purchase. Make it before answer.
+==
+
+[Exchanger] You canceled purchase.
+==
+
+[AddStats] You can't use this command twice at the time!
+==
+
+[AddStats] You have max points for this type!!!
+==
+
+[AddStats] You have max points for this type!!!
+==
+
+[AddStats] You don't have enought points to add. Need %d more.
+==
+
+[AddStats] You can't add more than %d points for this type!!!
+==
+
+[AddStats] You can't add more than %d points for this type!!!
+==
+
+[AddStats] Adding stats started. Please wait %d sec until it ends.
+==
+
+[AddStats] Your stats successfully added!
+==
+
+Level: %d, Master Level: %d
+==
+
+[Drop] Usage: /drop <ItemCount> <ItemType> <ItemIndex> <ItemLvl> <ItemSkill> <ItemLuck> <ItemOpt> <ItemExc> <ItemAnc>
+==
+
+[Drop] %d Item Created %d %d %d %d %d %d %d %d - Success
+==
+
+[Drop] Usage: /drop <Name> <ItemCount> <ItemType> <ItemIndex> <ItemLvl> <ItemSkill> <ItemLuck> <ItemOpt> <ItemExc> <ItemAnc>
+==
+
+[Drop] %d Item Created to %s %d %d %d %d %d %d %d %d - Success
+==
+
+[SetDrop] Usage: /setdrop <ItemIndex> <ItemLvl> <ItemLuck> <ItemOpt> <ItemExc> <ItemAnc>
+==
+
+[SetDrop] Item Created %d %d %d %d %d %d - Success
+==
+
+[SetDrop] Usage: /setdrop <Name> <ItemIndex> <ItemLvl> <ItemLuck> <ItemOpt> <ItemExc> <ItemAnc>
+==
+
+[SetDrop] Items Created to %s %d %d %d %d %d %d - Success
+==
+
+[SetZen] Value can't be less than 0 and more than 2000000000!
+==
+
+[SetZen] You sucsessfully changed %s zen.
+==
+
+[SetZen] Your zen was changed to %d by %s.
+==
+
+[SetChar] Zen can't be less than 0 and more than 2000000000!
+==
+
+[SetChar] PCPnt can't be less than 0 and more than %d!
+==
+
+[SetChar] WCoin can't be less than 0 and more than %d!
+==
+
+[SetChar] AddPnt can't be less than 0 and more than %d!
+==
+
+[SetChar] Lvl can't be less than 0 and more than %d!
+==
+
+[SetChar] Lvl can't be less than 0 and more than 3!
+==
+
+[SetChar] You sucsessfully changed %s character.
+==
+
+[SetChar] Your character was edited by %s, you must relogin!
+==
+
+[SetPK] PK lvl can't be less than 0 and more than 100!
+==
+
+[SetPK] You sucsessfully changed %s pk.
+==
+
+[SetPK] Your pk was changed to %d by %s.
+==
+
+[PkClear] Your are not pk!
+==
+
+[PkClear] Your Pk sucsessfully cleared!
+==
+
+[PkClear] %s is not pk!
+==
+
+[PkClear] You sucsessfully clear %s pk.
+==
+
+[PkClear] Your pk was cleared by %s.
+==
+
+[PkClear] Your are not pk!
+==
+
+[PkClear] Your Pk sucsessfully cleared!
+==
+
+[ResetSystem] Command disabled!
+==
+
+[Skin] Your Skin sucsessfully changed!
+==
+
+[Skin] You sucsessfully change %s Skin.
+==
+
+[Skin] Your Skin was changed by %s.
+==
+
+[Skin] Your Skin sucsessfully changed!
+==
+
+[GMove] Such map doesn't exist!
+==
+
+[GMove] Such coords doesn't exist!
+==
+
+[GMove] You sucsessfully moved to %s %d %d!
+==
+
+[GMove] You sucsessfully move %s to %s %d %d!
+==
+
+[GMove] You sucsessfully moved to %s %d %d by %s!
+==
+
+[Ware] You can use only 1 vault!
+==
+
+[Ware] Close your vault fisrt!
+==
+
+[Ware] You can use from 1 to %d vaults!
+==
+
+[Ware] You need to chose other vault number!
+==
+
+[Ware] You sucsessfully change vault from %d to %d!
+==
+
+IP Address: %s
+==
+
+Account: %s | Character: %s
+==
+
+Level: %d | Zen: %d
+==
+
+Map: %s (%d)(%d,%d)
+==
+
+Married on %s | Resets: %d
+==
+
+Not married | Resets: %d
+==
+
+[Status][GM] %s get your status!
+==
+
+[ONLINE]: %d Player(s).
+==
+
+[Reload] RMST Data Reloaded.
+==
+
+[Reload] Monsters Reloaded.
+==
+
+[Reload] Shops Reloaded.
+==
+
+[Reload] GMSystem Reloaded.
+==
+
+[Reload] DropSystem`s Reloaded.
+==
+
+[Reload] IPBlock Reloaded.
+==
+
+[Reload] All Options Reloaded.
+==
+
+[Evo] Congratulations you've successfully pass third quest!
+==
+
+[Evo] You have already finished third quest!
+==
+
+[Evo] You need to pass seccond quest!
+==
+
+[Marry] %s is married!!!
+==
+
+[Marry] %s is not married!!!
+==
+
+[Marry] You are not married!
+==
+
+[Marry]Your husband/wife is offline
+==
+
+[Marry] Your husband/wife is now online!
+==
+
+[Marry] You are not married or your marriage is offline!
+==
+
+[Marry] Your marriage is inside event map, you cannot teleport
+==
+
+[Marry] You successfully moved to %s!
+==
+
+[Marry] %s successfully moved to you!
+==
+
+[Marry] You are not married!
+==
+
+[Marry] You divorced with %s!
+==
+
+[ZenDrop] Max Value is 1000000000
+==
+
+[ZenDrop] %d Zen successfully Dropped
+==
+
+[ZenDrop] Command works only on Normal Server
+==
+
+[AddMob] %d Mob Successfully spawned (Map: %d, X: %d, Y: %d, MobID: %d)
+==
+
+[AddMob] This is Private module
+==
+
+[BuyVIP] You have already bought VIP.
+==
+
+[BuyVIPServ] Successfully bought %d Hour(s)
+==
+
+[BuyVIP] Vip serv is disabled.
+==
+
+[VIP] There are no such vip status.
+==
+
+[VIP] You can't buy %s vip status.
+==
+
+[BuyVIP] Successfully bought %s for %d Hour(s)
+==
+
+[BuyVIP] Your VIP status starts right now!
+==
+
+[BuyVIP] This is Private module
+==
+
+[ServerVIP] You have %d server min left.
+==
+
+[InGameVIP] You have %s vip for %d in game min.
+==
+
+[VIP] You haven't bought VIP yet.
+==
+
+[CheckVip] This is Private module
+== [ПроверкаVip] Это приватный модуль
+
+[Firework] Such coords doesn't exist!
+== [Firework] Таких координатов не существует
+
+[Firework] [%d] Firework added to map: %d, x: %d, y: %d
+== [Firework] [%d] Firework добавлена на карту: %d, x: %d, y: %d
+
+You aren't guild master or assistant
+== Вы не мастер или ассистент гильдии
+
+[Move] Sorry but map is for V.I.P.
+== [Перемещение] Извините, эта карта только для V.I.P.
+
+[Move] Fonomans can't move
+== [Перемещение] Фономаны не могу перемещатся
+
+Files are licensed to: %s
+== Файлы лицензированы на: %s
+
+Files are licensed to: Public
+== Файлы лицензированы на: Публичная версия
+
+[AntiHack] Attempted to SQL Inject, Disconnecting...
+== [Антихак] Предотвращена SQL Inject, отключение...
+
+[Golden Archer] You lucked %d of zen.
+==
+
+[Golden Archer] Your 'Rena' accepted, You have %d rens , for reward need %d more.
+==
+
+[Golden Archer] Points lucked: WCoins:%d
+==
+
+[Golden Archer] Points lucked: PC Points:%d
+==
+
+[Marriage] You don't have right items. Check it one more time.
+==
+
+[Marriage] You don't have at least %d witnesses.
+==
+
+[Marriage] You pay %d PcPoints
+==
+
+[Marriage] You pay %d WCoin
+==
+
+[Divorce] You don't have right items. Check it one more time.
+==
+
+[Divorce] You pay %d PcPoints
+==
+
+[Divorce] You pay %d WCoin
+==
+
+[PointShop] System Error Requesting Points Record
+==
+
+[PointShop] You earned %d Points
+==
+
+[WCoins] You earned %d WCoins
+== 
+
+[PointShop] You Have Maximum Points
+== [Магазин поинтов] Вы достигли максимального кол-ва поинтов
+
+[AntiHack][%s] Attempted to use Spoofing Hack, Disconnecting...
+== [АнтиХак][%s] Попытка использовать Spoofing Hack, отключение...
+
+[AntiHack] %d Fake packet Detected and Blocked
+== [АнтиХак] %d ненастоящий пакет обнаружен и блокирован
+
+[Party] You can't stay with %s in party! %s needs %d more lvl.
+==
+
+[Party] You can't stay with %s in party! You need %d more lvl.
+==
+
+[VIP] Left %d minutes of VIP Server.
+==
+
+[VIP] You are not vip user! Disconnected from the server.
+==
+
+[VIP] Left %d minutes of VIP.
+==
+
+[VIP] You have %d more vip minutes
+==
+
+[AntiHack][%s] Lahap Trade-Dupe Attempt, Trade: %s[%d], Action: %d
+==
+
+[Reset] You have %2.1f more secs for answer.
+== [Ресет] У вас еще %2.1f сек. для ответа.
+
+You don't have enought Zen, you need %d more!
+== Вам не хватает Zen, необходимо еще %d!
+
+You don't have enought WCoin, you need %d more!
+== Вам не хватает WCoin, необходимо еще %d!
+
+You don't have enought PcPoint, you need %d more!
+== Вам не хватает PcPoint, необходимо еще %d!
+
+[Guard] You pay %d PcPoints
+== [Охрана] Вы купили %d PcPoints
+
+[Guard] You pay %d WCoin
+== [Охрана] Вы купили %d WCoin
+
+[Guard] You pay %d Zen
+== [Охрана] Вы купили %d Zen
+
+[Reset System]You don't have %d level. Need %d level more. Now you are only %d level.
+==
+
+[Reset System]You don't have %d zen. Need %d more zen. Now you have only %d zen.
+==
+
+[Reset System]You don't have %d PcPoints. Need %d more PcPoints. Now you have only %d PcPoints.
+==
+
+[Reset System]You don't have %d WCoin. Need %d more WCoin. Now you have only %d WCoin.
+==
+
+[Reset System]You don't have right items. Check it one more time.
+== 
+
+[PointShop] You earned %d Points for being online!
+== [Магазин поинтов] Вы получили %d поинтов за пребывание в онлайне!
+
+[PointShop] You have been online %d sec %d min %d hour!
+== [Магазин поинтов] Вы в онлайне %d сек. %d мин. %d часов!
+
+[VIP] Your vip time is over! You are normal player again.
+== [ВИП] Время вашего вип закончилось! Теперь вы обычный игрок.
+
+[VIP] You have %d more vip minutes
+== [ВИП] You have %d more vip minutes
+
+[POST] %s
+== [Глобальное сообщение] %s
+
+@[POST] %s
+== @[Глобальное сообщение] %s
+
+~[POST] %s
+== ~[Глобальное сообщение] %s
+
+Devias Marriage Started!
+== Свадьба началась в Devias!
+
+[%s] Yes!
+== [%s] Да!
+
+[Marriage] Marriage canceled by %s!!!
+== [Свадьба] Свадьба отменена с %s!!!
+
+[%s] No!
+== [%s] Нет!
+
+[ADMIN]: %s
+== [Администратор]: %s
+
+[Duel System] Duel Started [%s] VS [%s] on Room[%d]
+== [Дуэль система] Дуэль началась [%s] VS [%s] в комнате[%d]
+
+[Marriage] Congratulations with the wedding %s and %s!
+== [Свадьба] Поздравляем со бракосочетанием %s и %s!
+
+[Admin] %s join the game!
+==[Админ] %s вошел в игры!
+
+[GM] %s join the game!
+== [ГМ] %s вошел в игры!
+
+[Admin] %s exit the game!
+== [Админ] %s вышел из игры!
+
+[GM] %s exit the game!
+== [ГМ] %s вышел из игры!
+
+[Happy Hour] %s Event Started. Event Close in %d:%02d.
+== [Счастливый час] %s эвент начался. Эвент закроется в %d:%02d.
+
+[Happy Hour] In %s Event Close.
+== [Счастливый час] В %s эвент закроется.
+
+[Marriage] %s, do you really want to marry on %s?
+== [Свадьба] %s, вы действительно хотите пожениться с %s?
+
+[Divorce] %s, do you really want to divorce with %s?
+== [Развод] %s, вы действительно хотите развестись с %s?
+
+[Marriage] It would be lesbian wedding!
+== [Свадьба] Это будет свадьба лесбиянок!
+
+[Marriage] It would be gey wedding!
+== [Свадьба] Это будет свадьба геев!
+
+[Marriage] We don't support untraditional weddings!!! Marriage canceled!!!
+== [Свадьба] Мы не поддерживаем нетрадиционные свадьбы!!! Брак отменен!!!
+
+[Moss The Gambler] Moss The Gambler Open in a 5 min.
+== [Moss The Gambler] Moss The Gambler откроется через 5 минут.
+
+[Moss The Gambler] Moss The Gambler Opened.
+== [Moss The Gambler] Moss The Gambler открыт.
+
+[Moss The Gambler] Moss The Gambler Closed.
+== [Moss The Gambler] Moss The Gambler закрыт.
+
+[Reset System]You have max resets. You can't make more resets.
+== [Ресет система] Вы достигли максимального ресета. Вы больше не можете делать ресеты.
+
+You have max resets. You can't make more resets.
+== Вы достигли максимального ресета. Вы больше не можете делать ресеты.

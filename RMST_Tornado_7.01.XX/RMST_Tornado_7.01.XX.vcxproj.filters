@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{9df456a6-0d2b-43aa-a7c0-c7292d81825d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs">
+      <UniqueIdentifier>{87e3f7c3-e999-4e08-878e-65bf8c8ea679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs\GameServer">
+      <UniqueIdentifier>{8a71f5be-4db9-464b-a87c-46da19215e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs\GameServerCS">
+      <UniqueIdentifier>{7a1f85f7-e969-4122-bef8-1dea6b69b0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs\RMST">
+      <UniqueIdentifier>{e5b90bc4-fe69-47a7-b004-4defa1e4b611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AntiAFK">
+      <UniqueIdentifier>{4b3d5827-8abc-4af9-b5bf-8dd0160d1c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Commands">
+      <UniqueIdentifier>{06ee9407-5d66-43dd-acd8-777c81e3893b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Configs">
+      <UniqueIdentifier>{63a5fc48-5be3-48d9-bfe8-2062a9917ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Console">
+      <UniqueIdentifier>{264fe631-ed09-4528-b337-b01137e3cf30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\cSQL">
+      <UniqueIdentifier>{7378ae24-0413-4340-aa07-389de1b33175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DuelManager">
+      <UniqueIdentifier>{566c0126-bbac-45ef-a58b-1449ba3f929b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GMSystem">
+      <UniqueIdentifier>{48f0c4ea-5200-48b6-8b24-51ca0b5a3747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GoldenArcher">
+      <UniqueIdentifier>{01ff2508-95d0-432a-848f-bc8a2273e5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HappyHour">
+      <UniqueIdentifier>{e113d725-c6ae-4fa5-9d31-2c058c74d4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\IPBlock">
+      <UniqueIdentifier>{15c5aee5-ffa4-43ea-8abf-7e9316b18a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Jewels">
+      <UniqueIdentifier>{a79847ac-4510-457b-979b-3a64f3739cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Maps">
+      <UniqueIdentifier>{5cba8861-b79c-4251-b682-44825d1e2575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MarrySystem">
+      <UniqueIdentifier>{006189ff-16b3-4b90-acd1-41418f2f6c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Monster">
+      <UniqueIdentifier>{adee0a87-88df-475d-8eb2-e9be0d365802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MossGambler">
+      <UniqueIdentifier>{53984549-f261-4d23-9dd7-da0cb66e6951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\News">
+      <UniqueIdentifier>{5d8a7baf-0f8f-4d24-915f-e962e89461f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PCPoints&amp;WCoins">
+      <UniqueIdentifier>{ddc34d90-c5ab-4f0c-a7e3-970e683e70f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Protocol">
+      <UniqueIdentifier>{404a5622-ff54-445a-acdd-1b9f56d61eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResetSystem">
+      <UniqueIdentifier>{72eeec2c-c523-4528-9fe7-08d98afcfb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\User">
+      <UniqueIdentifier>{2660764c-c01f-40e0-a5c1-574c39f94db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\StdAfx">
+      <UniqueIdentifier>{a555b970-d675-443f-aaba-85185e1a6639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WzAG">
+      <UniqueIdentifier>{474b9803-7590-4e0f-a3b3-531eec8710e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DropEvent">
+      <UniqueIdentifier>{b95965f4-8dec-4592-9eb8-0205c2b79674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs\RMST\WzEvents">
+      <UniqueIdentifier>{8370d150-f3e6-492a-9dc8-b95fc0e6b52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DropSystem">
+      <UniqueIdentifier>{1124eb7a-d764-42ad-91b5-97defeb7d175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Fixes">
+      <UniqueIdentifier>{77977101-7efa-45f5-bf93-a00687a2a784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs\RMST\Translations">
+      <UniqueIdentifier>{a900ad8e-6a49-4ba7-91d1-650f1e4013a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Localization">
+      <UniqueIdentifier>{4b55965f-51d3-4c94-b8a4-39ea98c6dbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilits">
+      <UniqueIdentifier>{49d8c96e-b733-451e-bbac-2e8df95b8487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Protection">
+      <UniqueIdentifier>{dabb2a3b-dba2-4f3a-9adf-1f1bdd45800f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\VIP">
+      <UniqueIdentifier>{3a57257e-cbd6-45fd-a3bb-4ae7d324b848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{41853674-1a78-4876-a402-3575e2371c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MoveReq">
+      <UniqueIdentifier>{1b477738-1fa4-47c4-babf-6a3fef011d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MapSystem">
+      <UniqueIdentifier>{58e5046d-7a8c-4692-8422-bd6440aee769}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiAFK.cpp">
+      <Filter>Source\AntiAFK</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatCommands.cpp">
+      <Filter>Source\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Configs.cpp">
+      <Filter>Source\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="cSQL.cpp">
+      <Filter>Source\cSQL</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelManager.cpp">
+      <Filter>Source\DuelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GmSystem.cpp">
+      <Filter>Source\GMSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenArcher.cpp">
+      <Filter>Source\GoldenArcher</Filter>
+    </ClCompile>
+    <ClCompile Include="HappyHour.cpp">
+      <Filter>Source\HappyHour</Filter>
+    </ClCompile>
+    <ClCompile Include="IPBlock.cpp">
+      <Filter>Source\IPBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Jewels.cpp">
+      <Filter>Source\Jewels</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps.cpp">
+      <Filter>Source\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="MarrySystem.cpp">
+      <Filter>Source\MarrySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MossGambler.cpp">
+      <Filter>Source\MossGambler</Filter>
+    </ClCompile>
+    <ClCompile Include="News.cpp">
+      <Filter>Source\News</Filter>
+    </ClCompile>
+    <ClCompile Include="PCPoints.cpp">
+      <Filter>Source\PCPoints&amp;WCoins</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Source\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="prodef.cpp">
+      <Filter>Source\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolFunct.cpp">
+      <Filter>Source\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetSystem.cpp">
+      <Filter>Source\ResetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source\User</Filter>
+    </ClCompile>
+    <ClCompile Include="WzAG.cpp">
+      <Filter>Source\WzAG</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilits.cpp">
+      <Filter>Source\Utilits</Filter>
+    </ClCompile>
+    <ClCompile Include="Tornado.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DropEvent.cpp">
+      <Filter>Source\DropEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="DropSystem.cpp">
+      <Filter>Source\DropSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Fixes.cpp">
+      <Filter>Source\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Localize.cpp">
+      <Filter>Source\Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection.cpp">
+      <Filter>Source\Protection</Filter>
+    </ClCompile>
+    <ClCompile Include="VIP.cpp">
+      <Filter>Source\VIP</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveReq.cpp">
+      <Filter>Source\MoveReq</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSystem.cpp">
+      <Filter>Source\MapSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAFK.h">
+      <Filter>Source\AntiAFK</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatCommands.h">
+      <Filter>Source\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Configs.h">
+      <Filter>Source\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDefines.h">
+      <Filter>Source\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Source\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="cSQL.h">
+      <Filter>Source\cSQL</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelManager.h">
+      <Filter>Source\DuelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GmSystem.h">
+      <Filter>Source\GMSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenArcher.h">
+      <Filter>Source\GoldenArcher</Filter>
+    </ClInclude>
+    <ClInclude Include="HappyHour.h">
+      <Filter>Source\HappyHour</Filter>
+    </ClInclude>
+    <ClInclude Include="IPBlock.h">
+      <Filter>Source\IPBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Jewels.h">
+      <Filter>Source\Jewels</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Source\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps.h">
+      <Filter>Source\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="MarrySystem.h">
+      <Filter>Source\MarrySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Source\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MossGambler.h">
+      <Filter>Source\MossGambler</Filter>
+    </ClInclude>
+    <ClInclude Include="News.h">
+      <Filter>Source\News</Filter>
+    </ClInclude>
+    <ClInclude Include="PCPoints.h">
+      <Filter>Source\PCPoints&amp;WCoins</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Source\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Prodef.h">
+      <Filter>Source\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetSystem.h">
+      <Filter>Source\ResetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Source\User</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="WzAG.h">
+      <Filter>Source\WzAG</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilits.h">
+      <Filter>Source\Utilits</Filter>
+    </ClInclude>
+    <ClInclude Include="DropEvent.h">
+      <Filter>Source\DropEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="DropSystem.h">
+      <Filter>Source\DropSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Fixes.h">
+      <Filter>Source\Fixes</Filter>
+    </ClInclude>
+    <ClInclude Include="Localize.h">
+      <Filter>Source\Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>Source\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="VIP.h">
+      <Filter>Source\VIP</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveReq.h">
+      <Filter>Source\MoveReq</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSystem.h">
+      <Filter>Source\MapSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configs\GameServer\GameServer.ini">
+      <Filter>Configs\GameServer</Filter>
+    </None>
+    <None Include="Configs\GameServer\GMSystem.txt">
+      <Filter>Configs\GameServer</Filter>
+    </None>
+    <None Include="Configs\GameServer\IPBlock.txt">
+      <Filter>Configs\GameServer</Filter>
+    </None>
+    <None Include="Configs\GameServer\News.txt">
+      <Filter>Configs\GameServer</Filter>
+    </None>
+    <None Include="Configs\GameServerCS\GameServerCS.ini">
+      <Filter>Configs\GameServerCS</Filter>
+    </None>
+    <None Include="Configs\GameServerCS\GMSystem.txt">
+      <Filter>Configs\GameServerCS</Filter>
+    </None>
+    <None Include="Configs\GameServerCS\IPBlock.txt">
+      <Filter>Configs\GameServerCS</Filter>
+    </None>
+    <None Include="Configs\GameServerCS\News.txt">
+      <Filter>Configs\GameServerCS</Filter>
+    </None>
+    <None Include="Configs\RMST\AntiAFK.txt">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\CalcCharacter.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\Commands.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\Common.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\Events.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\GoldenArcher.txt">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\HappyHour.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\ItemDropSettings.txt">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\Items.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\Jewels.txt">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\MarrySystem.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\MossGambler.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\MossGamblerEventTime.dat">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\PCPoints_WCoins.dat">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\Pets.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\PkClearGuard.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\ResetSystem.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\Skills.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\WzEvents\EventDropWW.txt">
+      <Filter>Configs\RMST\WzEvents</Filter>
+    </None>
+    <None Include="Configs\WzEvents\EventDropIT.txt">
+      <Filter>Configs\RMST\WzEvents</Filter>
+    </None>
+    <None Include="Configs\WzEvents\EventDropCC.txt">
+      <Filter>Configs\RMST\WzEvents</Filter>
+    </None>
+    <None Include="Configs\WzEvents\EventDropBC.txt">
+      <Filter>Configs\RMST\WzEvents</Filter>
+    </None>
+    <None Include="Configs\RMST\Syntax.txt">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Modules.txt" />
+    <None Include="Configs\GameServer\VIPServer.ini">
+      <Filter>Configs\GameServer</Filter>
+    </None>
+    <None Include="Configs\RMST\MonsterSpawn.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\Translations\RU.txt">
+      <Filter>Configs\RMST\Translations</Filter>
+    </None>
+    <None Include="TODO.txt" />
+    <None Include="Configs\RMST\AntiFoul.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\MaximumStats.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\MoveReq.txt">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\RMST\QuestSystem.ini">
+      <Filter>Configs\RMST</Filter>
+    </None>
+    <None Include="Configs\GameServer\VIPSystem.ini">
+      <Filter>Configs\GameServer</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

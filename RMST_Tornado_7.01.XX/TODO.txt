@@ -1,0 +1,7 @@
+7.10.07
+[GS\GSCS] PCPoints Dissapearing FIXED
+[GS\GSCS] ADDED PCPoints & MoveReq to /reload
+[GS\GSCS] AntiDDOS ADDED
+[GS\GSCS] AntiSQL Inject v2 ADDED
+[GS\GSCS] Zen Formulas ADDED
+[GS\GSCS] BanTick DELETED
